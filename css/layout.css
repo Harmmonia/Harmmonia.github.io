@@ -15,7 +15,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #a5a0ac; }
+body { background: #560000; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -98,7 +98,7 @@ header .scrolldown a {
 header .scrolldown a:hover { color: #8b8494; }
 
 .fa:hover, .fa:focus, .fa:visited, .fa:active {
-  color: #46241b;
+  color: #e8c8c8;
 }
 
 /* primary navigation
@@ -122,7 +122,7 @@ header .scrolldown a:hover { color: #8b8494; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #d8a89a; }
+.opaque { background-color: #560000; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -161,7 +161,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #46241b; }
+ul#nav li.current a { color: #ef6969; }
 
 
 /* ------------------------------------------------------------------ */
@@ -169,7 +169,7 @@ ul#nav li.current a { color: #46241b; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #845143;
+   background: #791414;
    padding-top: 90px;
    padding-bottom: 60px;
    overflow: hidden;
@@ -201,10 +201,10 @@ ul#nav li.current a { color: #46241b; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #46241b;
+   background: #560000;
 }
 #about .download .button:hover {
-   background: #d8a89a;
+   background: #ef6969;
    color: #2B2B2B;
 }
 #about .download .button i {
@@ -218,7 +218,7 @@ ul#nav li.current a { color: #46241b; }
 /* ------------------------------------------------------------------ */
 
 #skills {
-   background: #FDF8FF;
+   background: #f3f3f3;
    padding-top: 50px;
    padding-bottom: 50px;
    overflow: hidden;
@@ -228,10 +228,10 @@ ul#nav li.current a { color: #46241b; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   color: #541f11;
+   color: #770b0b;
 }
 #skills h1 span {
-   border-bottom: 3px solid #96422c;
+   border-bottom: 3px solid #560000;
    padding-bottom: 6px;
 }
 
@@ -243,7 +243,7 @@ ul#nav li.current a { color: #46241b; }
 /* ------------------------------------------------------------------ */
 
 #mywork {
-   background: #eae1ea;
+   background: #e4dede;
    padding-top: 50px;
    padding-bottom: 50px;
    overflow: hidden;
@@ -252,12 +252,12 @@ ul#nav li.current a { color: #46241b; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   color: #541f11;
+   color: #770b0b;
 }
 
 
 #mywork h1 span {
-   border-bottom: 3px solid #96422c;
+   border-bottom: 3px solid #560000;
    padding-bottom: 6px;
 }
 
@@ -274,14 +274,15 @@ ul#nav li.current a { color: #46241b; }
 footer {
    padding-top: 30px;
    margin-bottom: 30px;
-   color: #303030;
+   color: #e8c8c8;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: #a77070; }
+footer a:hover, footer a:focus { color: #e8c8c8; }
+
 
 /* copyright */
 footer .copyright {
@@ -292,7 +293,7 @@ footer .copyright li {
     margin: 0;
     padding: 0;
     line-height: 24px;
-    color: #666666;
+    color: #a77e7e;
 }
 .ie footer .copyright li {
    display: inline;
@@ -317,6 +318,8 @@ footer .social-links li {
 }
 
 footer .social-links li:first-child { margin-left: 0; margin-right: 15px; }
+
+footer .social-links li:hover {color: #e8c8c8;}
 
 /* Go To Top Button */
 #go-top {
